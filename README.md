@@ -19,7 +19,7 @@ This is a starting point for a React web app project, using my preferred setup.
 
 - [Yarn](https://classic.yarnpkg.com/) - package manager
 - [React](https://reactjs.org/) - UI framework
-- [Webpack](https://webpack.js.org/) - bundler / development server
+- [webpack](https://webpack.js.org/) - bundler / development server
 - [Babel](https://babeljs.io/) - JavaScript compiler
 - [Typescript](https://www.typescriptlang.org/) - static typing for JavaScript
 - [styled-components](https://styled-components.com/) - CSS-in-JS for React components
