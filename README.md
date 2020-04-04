@@ -22,7 +22,6 @@ This is a starting point for a React web app project, using my preferred setup.
 - [webpack](https://webpack.js.org/) - bundler / development server
 - [Babel](https://babeljs.io/) - JavaScript compiler
 - [Typescript](https://www.typescriptlang.org/) - static typing for JavaScript
-- [styled-components](https://styled-components.com/) - CSS-in-JS for React components
 - [ESLint](https://eslint.org/) / [Prettier](https://prettier.io/) - linting / code formatting
 
 ## Available Scripts
