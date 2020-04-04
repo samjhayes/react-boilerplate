@@ -4,14 +4,14 @@ This is a starting point for a React web app project, using my preferred setup.
 
 ## Getting Started
 
-1. Install Yarn by following installation instructions [https://yarnpkg.com/en/docs/install](here).
+1. Install Yarn by following installation instructions [here](https://yarnpkg.com/en/docs/install).
 1. `git clone` this repository.
 1. `cd` to the directory you cloned this repository to.
 1. `yarn dev` to run the development server (it should open in your default browser).
 
 ## Start Developing
 
-1. Install VSCode from [https://code.visualstudio.com/](here).
+1. Install VSCode from [here](https://code.visualstudio.com/).
 1. Open VSCode then add this directory to your workspace.
 1. Install the recommended plugins to auto-fix lint errors on save.
 
