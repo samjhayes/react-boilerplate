@@ -5,10 +5,8 @@
     "module": "commonjs",
     "target": "es6",
     "jsx": "react",
-    "baseUrl": "./src",
     "noEmit": true,
     "pretty": true,
     "esModuleInterop": true
-  },
-  "include": ["src"]
+  }
 }

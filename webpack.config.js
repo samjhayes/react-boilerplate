@@ -15,6 +15,14 @@ module.exports = {
         exclude: /node_modules/,
         use: 'babel-loader',
       },
+      {
+        test: /\.(webp|png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+        loader: 'url-loader',
+        options: {
+          limit: 8192,
+          name: '[path][name].[ext]',
+        },
+      },
     ],
   },
   output: {
