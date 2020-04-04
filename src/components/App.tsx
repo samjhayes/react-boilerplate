@@ -1,17 +1,15 @@
-import * as React from "react";
+import React, { Component, ReactNode } from 'react';
 
 export interface HelloProps {
   target: string;
 }
 
-// 'HelloProps' describes the shape of props.
-// State is never set so we use the '{}' type.
-export class Hello extends React.Component<HelloProps, {}> {
-  render() {
-    return (
-      <h1>
-        Hello, {this.props.target}!
-      </h1>
-    );
+export class Hello extends Component<HelloProps, {}> {
+  constructor(props: HelloProps) {
+    super(props);
+  }
+
+  render(): ReactNode {
+    return <h1>Hello, {this.props.target}!</h1>;
   }
 }
