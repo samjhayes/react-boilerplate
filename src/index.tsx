@@ -5,9 +5,9 @@ import { App } from './components/App';
 import { GlobalStyle } from './globalStyle';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <GlobalStyle />
     <App target="world" />
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById('root')
 );
