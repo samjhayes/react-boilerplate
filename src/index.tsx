@@ -9,5 +9,5 @@ ReactDOM.render(
     <GlobalStyle />
     <App target="world" />
   </React.Fragment>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
